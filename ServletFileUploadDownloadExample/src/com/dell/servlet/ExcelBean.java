@@ -28,6 +28,7 @@ public class ExcelBean {
 	}
 	public void setsAttributeName(String sAttributeName) {
 		this.sAttributeName = sAttributeName;
+		System.out.println("Nilay Test");
 	}
 	public String getsType() {
 		return sType;
