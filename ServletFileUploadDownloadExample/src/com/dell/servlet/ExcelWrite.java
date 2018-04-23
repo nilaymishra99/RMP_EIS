@@ -67,13 +67,13 @@ package com.dell.servlet;
 
 	        // Create Other rows and cells with employees data
 	        int rowNum = 1;
-	        for(Employee employee: employees) {
+	       // for(RMP rmp: rmp) {
 	            Row row = sheet.createRow(rowNum++);
 
-	            row.createCell(0)
+	           // row.createCell(0)
 	                    .setCellValue(employee.getName());
 
-	            row.createCell(1)
+	           // row.createCell(1)
 	                    .setCellValue(employee.getEmail());
 
 	            Cell dateOfBirthCell = row.createCell(2);
