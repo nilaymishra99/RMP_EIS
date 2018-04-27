@@ -1,5 +1,7 @@
 package com.dell.servlet;
 
+import java.util.Date;
+
 public class ExcelBean {
 	public ExcelBean(String sElementName, String sAttributeName, String sType, String sLength, String sMapping,
 			String sNotes) {
@@ -53,6 +55,10 @@ public class ExcelBean {
 	}
 	public void setsNotes(String sNotes) {
 		this.sNotes = sNotes;
+	}
+	public Date getEmail() {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
     

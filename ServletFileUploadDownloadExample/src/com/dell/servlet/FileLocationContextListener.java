@@ -1,4 +1,4 @@
-//Path created to store file
+/*//Path created to store file
 package com.dell.servlet;
 
 import java.io.File;
@@ -27,3 +27,4 @@ public class FileLocationContextListener implements ServletContextListener {
 	}
 	
 }
+*/

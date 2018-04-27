@@ -1,4 +1,4 @@
-package com.dell.servlet;
+/*package com.dell.servlet;
 
 	import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 	import org.apache.poi.ss.usermodel.*;
@@ -34,8 +34,8 @@ package com.dell.servlet;
 	        // Create a Workbook
 	        Workbook workbook = new XSSFWorkbook(); // new HSSFWorkbook() for generating `.xls` file
 
-	        /* CreationHelper helps us create instances for various things like DataFormat, 
-	           Hyperlink, RichTextString etc, in a format (HSSF, XSSF) independent way */
+	         CreationHelper helps us create instances for various things like DataFormat, 
+	           Hyperlink, RichTextString etc, in a format (HSSF, XSSF) independent way 
 	        CreationHelper createHelper = workbook.getCreationHelper();
 
 	        // Create a Sheet
@@ -67,19 +67,20 @@ package com.dell.servlet;
 
 	        // Create Other rows and cells with employees data
 	        int rowNum = 1;
-	       // for(RMP rmp: rmp) {
+	        Object employee;
+			for( ExcelBean employee: employee) {
 	            Row row = sheet.createRow(rowNum++);
 
-	           // row.createCell(0)
-	                    .setCellValue(employee.getName());
+	            row.createCell(0).
+	                    setCellValue(employee.getsType());
 
-	           // row.createCell(1)
-	                    .setCellValue(employee.getEmail());
+	           row.createCell(1).
+	                    setCellValue(employee.getEmail());
 	                    System.out.println("Commit by Rahul");
 	                    System.out.println("Commit by Rahul");
 
 	            Cell dateOfBirthCell = row.createCell(2);
-	            dateOfBirthCell.setCellValue(employee.getDateOfBirth());
+	            //dateOfBirthCell.setCellValue(employee.getDateOfBirth());
 	            dateOfBirthCell.setCellStyle(dateCellStyle);
 
 	            row.createCell(3)
@@ -101,3 +102,4 @@ package com.dell.servlet;
 	    }
 	}
 }
+*/
